@@ -1,0 +1,36 @@
+{
+  "name": "tiktik",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.9.0",
+    "@sanity/client": "^5.3.2",
+    "@types/node": "18.15.5",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "axios": "^1.3.4",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "gapi-script": "^1.2.0",
+    "jwt-decode": "^3.1.2",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.8.0",
+    "typescript": "5.0.2",
+    "uuidv4": "^6.2.13",
+    "zustand": "^4.3.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}
